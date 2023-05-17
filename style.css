@@ -3,7 +3,8 @@
     height: 450px;
     margin-left: 36%;
     margin-top: 6%;
-    background-color:gray;
+    background-color:rgb(103, 111, 184);
+    border: solid 5px;
 }
 
 #screen{
@@ -12,12 +13,19 @@
     margin-top: 32px;
     height: 40px;
     pointer-events: none;
+    border: solid 3px
 }
 
 .btn{
     width: 40px;
     height: 40px;
     margin-left: 45px;
-    margin-top: 25px;
+    margin-top: 28px;
     font-size: medium;
+    border: solid 2px;
+}
+
+.btn:hover{
+    background-color:rgb(81, 187, 236);
+    border:rgb(81, 187, 236);
 }
