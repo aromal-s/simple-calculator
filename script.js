@@ -15,3 +15,9 @@ function equalClick()
     var result=eval(text)
     document.getElementById("screen").value=result
 }
+
+function backSpace()
+{
+    var str=document.getElementById("screen").value
+    document.getElementById("screen").value=str.substr(0,str.length-1)
+}
